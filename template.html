@@ -291,7 +291,7 @@ a.ol-full-screen-true:after {
 
 <script>
 function loadUserProgress() {
-    pybossa.userProgress('photomaskingBurley').done(function(data){
+    pybossa.userProgress('photomaskingWantage').done(function(data){
     	
     	console.log('Tasks done so far: ' + data.done);
     	
@@ -670,5 +670,5 @@ pybossa.presentTask(function(task, deferred) {
         
 });
 
-pybossa.run('photomaskingBurley');
+pybossa.run('photomaskingWantage');
 </script>
